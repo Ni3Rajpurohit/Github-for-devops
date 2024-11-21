@@ -20,3 +20,5 @@ To push the file to github --> git push origin main
 To get the repo from github to local :
 click on code in github and copy https link
 In local machine cmd --> git clone htttpsURL
+
+To copy rep from github to github --> Fork option
