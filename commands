@@ -1,0 +1,22 @@
+To add your name and email in git :
+git config --global user.name 'Nitin'
+git config --global user.email 'Nitin@gmail.com'
+
+There are 3 stages in git - untracked(red), staged(Green), tracked
+Files in file system are untracked, files in vcs are tracked.
+To add file in staged --> git add filename
+to send file back to untracked --> git rm --cached filename
+to add file in tracked --> git commit -m "summary text"
+to restore deleted file in tracked --> git restore filename
+
+To connect local file system to Github:
+
+1)git remote add origin https://github.com/Ni3Rajpurohit/Terraform.git (will get this from github
+2)Generate PAT token from github.
+3)git remote -v --> to get the origin URL
+4)git remote set-url origin https://PAT@OriginURLwithouthttps://
+To push the file to github --> git push origin main
+
+To get the repo from github to local :
+click on code in github and copy https link
+In local machine cmd --> git clone htttpsURL
